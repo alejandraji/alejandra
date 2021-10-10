@@ -90,12 +90,10 @@
     padding: 60px 60px 52px;
   }
 }
-
 .header__logo {
   display: block;
   width: $logo-width;
   max-width: 80%;
-
   @include mq(tabletp) {
     float: left;
     max-width: 50%;

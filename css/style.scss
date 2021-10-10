@@ -132,8 +132,6 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 // Grid item
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
-
-
 // - - - - - - - - - - Global styles
 
 @import "_basic";
@@ -147,185 +145,112 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_syntax";
 @import "_includes/_contact-form";
 
-
-
 // - - - - - - - - - - Section styles
 
 @import "_includes/_portfolio";
 @import "_includes/_blog";
 
-
-.image-wrap img{
+.image-wrap img {
   border-radius: 100px;
   width:25%;
 }
-// resume CSS 
-h4.section-title {
-    margin-bottom: -30px;
-    margin-left: 0;
-    margin-right: 0;
+.resume-pdf {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+  :hover {
+    color: #ff8c73;
+    text-decoration: underline;
+  }
 }
-
-hr.resume-divider {
-    margin-bottom: 25px;
-    margin-left: 0;
-    margin-right: 0;
-}
-.title-pos{
-  margin-bottom:10px;
-  margin-top:10px;
+h4.section-title { margin: 13px 0 0 0;}
+hr.resume-divider { margin: 0 0 8px 0; }
+.title-pos {
   color:#000000;
-} 
-.position{
+  margin: 10px 0 10px 0;
+}
+.position {
   color: #000;
   font-weight: 900;
 }
-.company-year{
-  font-style: oblique;
-}
-.edu-tails {
-    color: #000000;
-}
-.skills-set {
-    line-height: 25px;
-}
-
-.job-details {
-    line-height: 20px;
-}
-
+.company-year { font-style: oblique; }
+.edu-tails { color: #000000; }
+.skills-set { line-height: 25px; }
+.job-details { line-height: 20px; }
 .box-1 {
-  width: 100%;
-  padding-bottom: 56.25%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-bottom: 56.25%;
+  width: 100%;
 }
-// .project-page-flex{
-//   display: flex;
-//    flex-direction: column;
-// }
-
-.projects-portfolio{
-  color:#000000;
-}
+.projects-portfolio { color:#000000; }
 ul.post-list {
-    list-style-type: none;
-    font-size:25px;
+  list-style-type: none;
+  font-size: 25px;
 }
-
-svg.svg-inline--fa.fa-envelope.fa-w-16,svg.svg-inline--fa.fa-github.fa-w-16, svg.svg-inline--fa.fa-linkedin.fa-w-14{
-    margin-right: 6px;
+svg { margin-right: 6px; }
+.image-project { margin: 0 0 15px 0; }
+.project-description {
+  font-size: 16px;
+  margin: 0 0 15px 0;
+  padding: 20px;
 }
-
-.image-project{
-    // border: 3px solid blue;
-    margin-bottom: 15px;
-}
-.project-description{
-    // border: 3px solid red;
-    margin-bottom: 15px;
-    padding:20px;
-    font-size:16px;
-}
-
-.project-count  {
-  min-height: 100%;
+.project-count {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+  min-height: 100%;
 }
 .project-count > div {
-  display: flex; 
-  flex-basis: calc(50% - 40px);  
-  justify-content: center;
-  flex-direction: column;
-}
-.project-count  > div > div {
   display: flex;
+  flex-basis: calc(50% - 40px);
+  flex-direction: column;
   justify-content: center;
+}
+.project-count > div > div {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 10px;
 }
-
-.image-project.images1{
-  background-image: url(../images/valentine_art.png);
-  width: 100%;
-  height: 220px;
+.images00,.images1,.images2, .images3,
+.images4,.images5,.images6 {
   background-size: cover;
-
+  height: 220px;
+  width: 100%;
 }
-
+.images00 { background-image: url(../images/ixoqarte.png); }
+.images1 { background-image: url(../images/valentine_art.png); }
+.images2 { background-image: url(../images/codepen.png); }
+.images3 { background-image: url(../images/mobile.png); }
+.images4 { background-image: url(../images/todaydash.jpg); }
+.images5 { background-image: url(../images/countdown.png); }
+.images6 { background-image: url(../images/corona-electricbeach.png); }
 span.position {
-    font-size: 20px;
+  font-size: 18px;
 }
-.images2{
-  background-image: url(../images/codepen.png);
-  width: 100%;
-  height: 220px;
-  background-size: cover;
-}
-
-.images3{
-  background-image: url(../images/mobile.png);
-  width: 100%;
-  height: 220px;
-  background-size: cover;
-}
-
-.images4{
-  background-image: url(../images/todaydash.jpg);
-  width: 100%;
-  height: 220px;
-  background-size: cover;
-}
-
-.images5{
-  background-image: url(../images/countdown.png);
-  width: 100%;
-  height: 220px;
-  background-size: cover;
-
-}
-
-.images6{
-  background-image: url(../images/corona-electricbeach.png);
-  width: 100%;
-  height: 220px;
-  background-size: cover;
-
-}
-
-p.header__tagline {
-    display: none;
-}
-
-.header-overlay {
-    background-color:#DEA227;
-}
-
-.links {
-  height:200px;
-}
+p.header__tagline { display: none; }
+.header-overlay { background-color: #b44343; }
+.links { height: 200px; }
 .headshot {
   border-radius: 100px;
   width:25%;
 }
-
-
-
-@media only screen and (min-width: 200px) and (max-width: 767px)  {
-   .project-count {
-      flex-direction:column;
-    }
-    .project-count>div {
-    display: flex;
-    flex: none;
-    }
-    .box.image-project.images3 {
-    margin-top: 25px;
+.menu { text-align: center; }
+ul.menu__list { margin-top: 120px }
+@include mq(tabletl) {
+  .menu { text-align: left; }
+  ul.menu__list { margin-top: 0 }
 }
 
-
-  }
+// @media only screen and (min-width: 200px) and (max-width: 767px)  {
+//   .project-count {
+//     flex-direction:column;
+//   }
+//   .project-count > div {
+//     display: flex;
+//     flex: none;
+//   }
+//   .box.image-project.images3 { margin-top: 25px; }
+// }
