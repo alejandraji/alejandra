@@ -239,10 +239,25 @@ p.header__tagline { display: none; }
 }
 .menu { text-align: center; }
 ul.menu__list { margin-top: 120px }
+
 @include mq(tabletl) {
   .menu { text-align: left; }
   ul.menu__list { margin-top: 0 }
+  .contact-info {
+    position: relative;
+    right: 63px;
+  }
+  .drop-line {
+    position: relative;
+    right: 60px;
+  }
 }
+@include mq(laptop) {
+  .contact-info { right: 100px; }
+  .drop-line { right: 95px; }
+}
+
+
 
 // @media only screen and (min-width: 200px) and (max-width: 767px)  {
 //   .project-count {
