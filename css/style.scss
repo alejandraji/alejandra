@@ -180,14 +180,20 @@ hr.resume-divider { margin: 0 0 8px 0; }
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 56.25%;
+  padding-bottom: 2.25%;
   width: 100%;
+}
+.box-1 img {
+  background-size: cover;
+  height: 240px;
+  width: 260px;
 }
 .projects-portfolio { color:#000000; }
 ul.post-list {
   list-style-type: none;
   font-size: 25px;
 }
+.project-title { padding-left: 28px; }
 svg { margin-right: 6px; }
 .image-project { margin: 0 0 15px 0; }
 .project-description {
@@ -220,13 +226,6 @@ svg { margin-right: 6px; }
   height: 220px;
   width: 100%;
 }
-.images00 { background-image: url(../images/ixoqarte.png); }
-.images1 { background-image: url(../images/valentine_art.png); }
-.images2 { background-image: url(../images/codepen.png); }
-.images3 { background-image: url(../images/mobile.png); }
-.images4 { background-image: url(../images/todaydash.jpg); }
-.images5 { background-image: url(../images/countdown.png); }
-.images6 { background-image: url(../images/corona-electricbeach.png); }
 span.position {
   font-size: 18px;
 }
@@ -243,29 +242,12 @@ ul.menu__list { margin-top: 120px }
 @include mq(tabletl) {
   .menu { text-align: left; }
   ul.menu__list { margin-top: 0 }
-  .contact-info {
-    position: relative;
-    right: 63px;
+  .box-1 img {
+    height: 254px;
+    width: 380px;
   }
-  .drop-line {
+  .project-title {
     position: relative;
-    right: 60px;
+    right: 32px;
   }
 }
-@include mq(laptop) {
-  .contact-info { right: 100px; }
-  .drop-line { right: 95px; }
-}
-
-
-
-// @media only screen and (min-width: 200px) and (max-width: 767px)  {
-//   .project-count {
-//     flex-direction:column;
-//   }
-//   .project-count > div {
-//     display: flex;
-//     flex: none;
-//   }
-//   .box.image-project.images3 { margin-top: 25px; }
-// }

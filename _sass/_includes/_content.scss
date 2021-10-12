@@ -56,17 +56,17 @@
 		@include mq(tabletp) {
 		}
 
-		@include mq(tabletl) {
-			max-width: 80%;
-		}
+		// @include mq(tabletl) {
+		// 	max-width: 80%;
+		// }
 
-		@include mq(laptop) {
-			max-width: 75%;
-		}
+		// @include mq(laptop) {
+		// 	max-width: 75%;
+		// }
 
-		@include mq(desktop) {
-			max-width: 70%;
-		}
+		// @include mq(desktop) {
+		// 	max-width: 70%;
+		// }
 	}
 
 	hr {
