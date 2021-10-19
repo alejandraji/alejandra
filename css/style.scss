@@ -210,7 +210,7 @@ svg { margin-right: 6px; }
 }
 .project-count > div {
   display: flex;
-  flex-basis: calc(50% - 40px);
+  flex-basis: calc(94% - 40px);
   flex-direction: column;
   justify-content: center;
 }
@@ -249,5 +249,11 @@ ul.menu__list { margin-top: 120px }
   .project-title {
     position: relative;
     right: 32px;
+  }
+}
+
+@include mq(break-tabletp) {
+  .project-count > div {
+    flex-basis: calc(50% - 40px);
   }
 }
