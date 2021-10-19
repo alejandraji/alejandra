@@ -210,7 +210,7 @@ svg { margin-right: 6px; }
 }
 .project-count > div {
   display: flex;
-  flex-basis: calc(94% - 40px);
+  flex-basis: calc(97% - 40px);
   flex-direction: column;
   justify-content: center;
 }
@@ -234,10 +234,18 @@ p.header__tagline { display: none; }
 .links { height: 200px; }
 .headshot {
   border-radius: 100px;
-  width:25%;
+  width: 25%;
 }
 .menu { text-align: center; }
 ul.menu__list { margin-top: 120px }
+
+
+@include mq(tabletp) {
+  .project-count > div {
+    flex-basis: calc(50% - 40px);
+  }
+  .project-description { padding: 0px;}
+}
 
 @include mq(tabletl) {
   .menu { text-align: left; }
@@ -250,10 +258,9 @@ ul.menu__list { margin-top: 120px }
     position: relative;
     right: 32px;
   }
-}
-
-@include mq(break-tabletp) {
   .project-count > div {
     flex-basis: calc(50% - 40px);
   }
+  .project-description { padding: 20px;}
 }
+
