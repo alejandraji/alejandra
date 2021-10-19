@@ -3,7 +3,7 @@ title: resume
 subtitle:
 description: alejandra's personal portfolio
 ---
-<div class="resume-pdf"><a class="cv__download" target="_blank" href="/ajimenezresumepdf.pdf" rel="noopener noreferrer">Open Resume PDF</a></div>
+<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1YaRZ625fXKHJAeMkvFFaEpIJsH6t3awz/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
 <hr class="resume-divider">
   <div class="title-pos freelance">
     <span class="position">Front End Developer</span>,<span class="company-year"> Hearst, New York, NY </span> &nbsp; November 2020 – Present
