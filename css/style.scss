@@ -163,7 +163,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
   }
 }
 h4.section-title { margin: 13px 0 0 0;}
-hr.resume-divider { margin: 0 0 8px 0; }
+hr.resume-divider { margin: 0 0 15px 0; }
 .title-pos {
   color:#000000;
   margin: 10px 0 10px 0;
@@ -175,7 +175,11 @@ hr.resume-divider { margin: 0 0 8px 0; }
 .company-year { font-style: oblique; }
 .edu-tails { color: #000000; }
 .skills-set { line-height: 25px; }
-.job-details { line-height: 20px; }
+
+.job-details, .general   { 
+  line-height: 20px;
+  margin-bottom: 20px;
+}
 .box-1 {
   background-size: cover;
   background-position: center;
