@@ -151,8 +151,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_blog";
 
 .image-wrap img {
-  border-radius: 100px;
-  width:25%;
+  border-radius: 8px;
 }
 .resume-pdf {
   font-size: 20px;
@@ -177,6 +176,7 @@ hr.resume-divider { margin: 0 0 15px 0; }
 .skills-set { line-height: 25px; }
 
 .job-details, .general   { 
+  color: #6C7A89;
   line-height: 20px;
   margin-bottom: 20px;
 }
@@ -237,7 +237,7 @@ p.header__tagline { display: none; }
 .header-overlay { background-color: #b44343; }
 .links { height: 200px; }
 .headshot {
-  border-radius: 100px;
+  border-radius: 8px;
   width: 25%;
 }
 .menu { text-align: center; }

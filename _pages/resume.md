@@ -3,14 +3,25 @@ title: resume
 subtitle:
 description: alejandra's personal portfolio
 ---
-<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1YaRZ625fXKHJAeMkvFFaEpIJsH6t3awz/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
+<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1pXPCnzhEhzEjyp2jT-YBpwtYN4iqQctW/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
 <hr class="resume-divider">
+<div>
+
+ <div class="title-pos freelance">
+    <span class="position">Software Engineer</span>,<span class="company-year"> Newsela, New York, NY </span> &nbsp; January 2022 – June 2023
+  </div>
+  <div class="job-details general">
+   Contributed to the development of Newsela content viewing experience, which included delivering Newsela’s View content, Grading page and Free vs Premium pages. Collaborated with cross-functional teams, including product management, design, and QA, to ensure that projects were delivered on time.
+    <br>
+  </div>
+
   <div class="title-pos freelance">
     <span class="position">Front End Developer</span>,<span class="company-year"> Hearst, New York, NY </span> &nbsp; November 2020 – Present
   </div>
   <div class="job-details general">
     Successfully implemented changes in the front end to make all newspaper digital sites accessible. In addition, completed work to improve performance on all sites, which reach a total of 30 million users a month (SF Chronicle + SFGATE alone).
     <br>
+  </div>
   <div class="title-pos freelance">
     <span class="position">Front End Developer</span>,<span class="company-year"> Consultant, New York, NY </span> &nbsp; January 2017 – January 2020
   </div>

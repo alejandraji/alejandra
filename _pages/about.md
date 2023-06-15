@@ -17,5 +17,4 @@ featured_image: /images/demo/demo-portrait.jpg
 <h4 class="title1">who i am </h4>
 <p class="about-me">
 at my leaisure, you can find me running in prospect park, learning about herbal healing, reading anything latin american related, or staying politically engage
-
 </p>
