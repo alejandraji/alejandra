@@ -3,7 +3,7 @@ title: resume
 subtitle:
 description: alejandra's personal portfolio
 ---
-<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1pXPCnzhEhzEjyp2jT-YBpwtYN4iqQctW/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
+<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1SIv5oYgmPzfLpiTyN3aYDByF67K1EQFh/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
 <hr class="resume-divider">
 <div>
 
@@ -16,7 +16,7 @@ description: alejandra's personal portfolio
   </div>
 
   <div class="title-pos freelance">
-    <span class="position">Front End Developer</span>,<span class="company-year"> Hearst, New York, NY </span> &nbsp; November 2020 – Present
+    <span class="position">Front End Developer</span>,<span class="company-year"> Hearst, New York, NY </span> &nbsp; November 2020 – November 2021
   </div>
   <div class="job-details general">
     Successfully implemented changes in the front end to make all newspaper digital sites accessible. In addition, completed work to improve performance on all sites, which reach a total of 30 million users a month (SF Chronicle + SFGATE alone).
