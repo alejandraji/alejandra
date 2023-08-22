@@ -9,12 +9,7 @@ featured_image: /images/demo/demo-portrait.jpg
 
 <h4 class="title1">what I do</h4>
 <p class="about-me"> 
-    an experienced front-end developer creating accessible & high-performing web applications within cross-discipline design & product teams.
-    <br>
-    an amiable engineer who thrives working on creating products that have a positive impact on those who use it and are for social good
+    an amiable software engineer creating accessible & high-performing web applications within cross-discipline design & product teams.
 </p>
 <br/>
 <h4 class="title1">who i am </h4>
-<p class="about-me">
-at my leaisure, you can find me running in prospect park, learning about herbal healing, reading anything latin american related, or staying politically engage
-</p>
