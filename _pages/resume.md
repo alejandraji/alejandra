@@ -3,7 +3,7 @@ title: resume
 subtitle:
 description: alejandra's personal portfolio
 ---
-<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1SIv5oYgmPzfLpiTyN3aYDByF67K1EQFh/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
+<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1knRCduP03klVw_I3MorVDAFIdzIgydvO/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
 <hr class="resume-divider">
 <div>
 
