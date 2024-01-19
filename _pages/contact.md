@@ -7,8 +7,8 @@ featured_image: /images/demo/demo-portrait.jpg
 
 <div class= "contact col three contact-info">
 <ul class="post-list">
-<li><i class="fas fa-envelope" aria-hidden="true"></i>Email: <a class="info" href="mailto:axjimenez89@gmail.com"> axjimenez89@gmail.com </a></li>
-<li><i class="fab fa-github"  aria-hidden="true"></i>Github: <a class="info" href="https://github.com/axjimenez89" target="_blank"> axjimenez89 </a></li>
+<li><i class="fas fa-envelope" aria-hidden="true"></i>Email: <a class="info" href="mailto:alejandraxjime@gmail.com">alejandraxjime@gmail.com</a></li>
+<li><i class="fab fa-github"  aria-hidden="true"></i>Github: <a class="info" href="https://github.com/alejandraji" target="_blank"> alejandraji </a></li>
 <li><i class="fab fa-linkedin"></i>LinkedIn: <a class="info" href="https://www.linkedin.com/in/alejandraji/" target="_blank"> alejandra </a></li>
 </ul>
 </div>
