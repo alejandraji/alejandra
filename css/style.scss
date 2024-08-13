@@ -154,8 +154,8 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
   border-radius: 8px;
 }
 .resume-pdf {
-  font-size: 20px;
-  margin: 0 0 8px 0;
+  font-size: 22px;
+  margin: 0 0 18px 0;
   :hover {
     color: #ff8c73;
     text-decoration: underline;
@@ -173,9 +173,9 @@ hr.resume-divider { margin: 0 0 15px 0; }
 }
 .company-year { font-style: oblique; }
 .edu-tails { color: #000000; }
-.skills-set { line-height: 25px; }
+.skills-set { line-height: 28px; }
 
-.job-details, .general   { 
+.job-details, .general   {
   color: #6C7A89;
   line-height: 20px;
   margin-bottom: 20px;

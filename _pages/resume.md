@@ -3,9 +3,37 @@ title: resume
 subtitle:
 description: alejandra's personal portfolio
 ---
-<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1knRCduP03klVw_I3MorVDAFIdzIgydvO/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
+<div class="resume-pdf"><a class="cv__download" target="_blank" href="https://drive.google.com/file/d/1hOwdvswNDWM5QjQ-N58UrFAntunxh5U3/view?usp=sharing" rel="noopener noreferrer">Open Resume PDF</a></div>
+<h4 class= "section-title"> tech skills</h4>
+<hr class="resume-divider">
+<div class="skills-set">
+  Languages: &nbsp;Ruby, JavaScript, HTML5/CSS, Sass, PHP, Liquid
+  <br>
+  Development: &nbsp;Ruby on Rails, jQuery, Node.JS, React.JS
+  <br>
+  Frameworks:&nbsp; Express, Sinatra
+  <br>
+  CMS: Wordpress, Shopify
+  <br>
+  GIT: Github/Bitbucket
+  <br>
+  Amazon Web Services(AWS): &nbsp; EC2, Route 53
+  <br>
+  Database:&nbsp;MySQL, Salesforce
+ </div>
+
 <hr class="resume-divider">
 <div>
+
+<div class="title-pos freelance">
+    <span class="position">Frontend Engineer</span>,<span class="company-year"> Vera Institute of Justice, Brooklyn, NY </span> &nbsp; July 2024– present
+  </div>
+  <div class="job-details general">
+   Supports the Associate Director of Web Strategy in the continued growth and development of Vera’s website by
+   establishing best practices, implementing page designs, and providing ongoing maintenance for a website that
+   reaches 400,000 users per month.
+    <br>
+  </div>
 
  <div class="title-pos freelance">
     <span class="position">Software Engineer</span>,<span class="company-year"> Newsela, New York, NY </span> &nbsp; January 2022 – June 2023
@@ -54,27 +82,10 @@ description: alejandra's personal portfolio
   <br>
   &#8226; Managed 7 housing coordinators; provided training, support with processes, and monitored team morale
 </div>
-<h4 class= "section-title">education</h4>
+  <h4 class= "section-title">education</h4>
   <hr class="resume-divider"/>
-    <div class="edu-tails">
-      University of California, Santa Cruz
-    <br class="space">
-      Bachelor of Arts in Politics and Latin American and Latino Studies
-    </div>
-<h4 class= "section-title"> tech skills</h4>
-<hr class="resume-divider">
-<div class="skills-set">
-  Languages: &nbsp;Ruby, JavaScript, HTML5/CSS, Sass, PHP, Liquid
-  <br>
-  Development: &nbsp;Ruby on Rails, jQuery, Node.JS, React.JS
-  <br>
-  Frameworks:&nbsp; Express, Sinatra
-  <br>
-  CMS: Wordpress, Shopify
-  <br>
-  GIT: Github/Bitbucket 
-  <br>
-  Amazon Web Services(AWS): &nbsp; EC2, Route 53
-  <br>
-  Database:&nbsp;MySQL, Salesforce
- </div>
+  <div class="edu-tails">
+  University of California, Santa Cruz
+  <br class="space">
+  Bachelor of Arts in Politics and Latin American and Latino Studies
+  </div>
