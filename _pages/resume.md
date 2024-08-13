@@ -7,19 +7,19 @@ description: alejandra's personal portfolio
 <h4 class= "section-title"> tech skills</h4>
 <hr class="resume-divider">
 <div class="skills-set">
-  Languages: &nbsp;Ruby, JavaScript, HTML5/CSS, Sass, PHP, Liquid
+  Languages: &nbsp;Python, Ruby, JavaScript, HTML5/CSS, Sass, PHP, Liquid
   <br>
-  Development: &nbsp;Ruby on Rails, jQuery, Node.JS, React.JS
+  Development:&nbsp;Ruby on Rails, Next.JS,  Node.JS, React.JS
   <br>
   Frameworks:&nbsp; Express, Sinatra
   <br>
   CMS: Wordpress, Shopify
   <br>
-  GIT: Github/Bitbucket
+  GIT:&nbsp;Github/Bitbucket
   <br>
-  Amazon Web Services(AWS): &nbsp; EC2, Route 53
+  Amazon Web Services(AWS):&nbsp;EC2, Route 53
   <br>
-  Database:&nbsp;MySQL, Salesforce
+  Database:&nbsp;MySQL, Salesforce, PostgreSQL
  </div>
 
 <hr class="resume-divider">
